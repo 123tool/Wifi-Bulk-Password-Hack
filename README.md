@@ -19,6 +19,24 @@ Cukup jalankan file `spy-harvest.bat` sebagai **Administrator**.
 
 ### 🐧 Linux & 📱 Termux (Root)
 ```bash
-git clone [https://github.com/SPY-E/spy-wifi-harvester.git](https://github.com/SPY-E/spy-wifi-harvester.git)
-cd spy-wifi-harvester
+git clone https://github.com/123tool/Wifi-Bulk-Password-Hack.git
+cd Wifi-Bulk-Password-Hack
 python3 spy-harvest.py
+```
+### Panduan Instalasi & Penggunaan (Step-by-Step)
+
+​A. Di Windows (Paling Gampang)
+​Salin kode spy-harvest.bat ke Notepad.
+​Simpan dengan nama spy-harvest.bat.
+​Klik kanan file tersebut, pilih Run as Administrator.
+​Boom! Semua password muncul.
+
+​B. Di Linux / Kali Linux
+​Simpan kode Python sebagai spy-harvest.py.
+​Buka terminal, ketik: sudo python3 spy-harvest.py.
+​Tool akan membongkar folder /etc/NetworkManager/ dan menampilkan password-nya.
+
+​C. Di Termux (Android Rooted)
+​Karena Termux berbasis Linux, ia bisa membaca file sistem jika HP sudah Root.
+​Install Python: pkg install python.
+​Jalankan dengan akses root: tsu -c python spy-harvest.py.
