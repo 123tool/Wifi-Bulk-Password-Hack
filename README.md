@@ -1,20 +1,24 @@
-# 🔑 SPY WIFI EXTRACTOR PASSWORF
-> **Instant Windows WiFi Credential Recovery Tool**
+# 🦅 SPY WIFI PASS
+> **Universal WiFi Credential Recovery & Auditing Framework**
 
-![OS](https://img.shields.io/badge/OS-Windows-blue.svg)
-![Access](https://img.shields.io/badge/Access-Admin-red.svg)
+![OS](https://img.shields.io/badge/OS-Windows%20%7C%20Linux%20%7C%20Termux-red.svg)
+![Brand](https://img.shields.io/badge/Brand-SPY--E%20%26%20123Tool-blue.svg)
 
-**Script automasi untuk menarik seluruh data password WiFi yang pernah tersimpan di sistem Windows tanpa perlu software pihak ketiga. Cepat, efisien, dan mematikan untuk keperluan audit.**
+**Tool penetrasi dan pemulihan kredensial WiFi yang bekerja secara lintas platform. Tool ini mengekstraksi seluruh SSID dan Password yang tersimpan di dalam sistem target dalam hitungan detik.**
 
 ### 🔥 Features
-- **Bulk Extraction:** Tarik semua password SSID yang pernah terkoneksi dalam satu layar.
-- **Clear Text:** Menampilkan password tanpa enkripsi (`key=clear`).
-- **No GUI Needed:** Full operasional via Command Line.
+- **Auto-OS Detection:** Mendeteksi otomatis apakah user menggunakan Windows, Linux, atau Termux.
+- **Bulk Extraction:** Menarik semua password tanpa perlu input manual satu per satu.
+- **Root/Admin Checker:** Memastikan hak akses cukup untuk mendekripsi database password.
+- **Clean Output:** Hasil rapi dengan format `SSID | PASSWORD`.
 
-### 🚀 Cara Penggunaan
-1. Buka **CMD** atau **PowerShell** sebagai **Administrator**.
-2. Copy-paste perintah sakti di bawah ini.
-3. Seluruh SSID dan Password akan muncul dalam sekejap.
+## 📦 Installation & Usage
 
-### ⚠️ Disclaimer
-Gunakan tool ini hanya untuk keperluan **Edukasi** atau mengembalikan password milik sendiri yang lupa. Penyalahgunaan untuk akses ilegal adalah tanggung jawab pengguna.
+### 💻 Windows (CMD/PowerShell)
+Cukup jalankan file `spy-harvest.bat` sebagai **Administrator**.
+
+### 🐧 Linux & 📱 Termux (Root)
+```bash
+git clone [https://github.com/SPY-E/spy-wifi-harvester.git](https://github.com/SPY-E/spy-wifi-harvester.git)
+cd spy-wifi-harvester
+python3 spy-harvest.py
